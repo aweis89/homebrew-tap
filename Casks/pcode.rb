@@ -15,8 +15,8 @@ cask "pcode" do
   # Updates come through `brew upgrade`; the app's own updater is disabled.
   auto_updates false
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
   depends_on formula: "aweis89/tap/pcode"
+  depends_on macos: :ventura
 
   app "Pcode.app"
 
