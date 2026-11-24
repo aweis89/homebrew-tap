@@ -20,7 +20,7 @@ class Pcode < Formula
     depends_on "bubblewrap"
   end
 
-  # This upstream tap uses uv.lock rather than duplicating its dependency tree
+  # This formula installs from pcode's uv.lock rather than duplicating its dependency tree
   # as Homebrew resources. Dependency downloads require network access at build time.
   def install
     libexec.install "pyproject.toml", "uv.lock", "src", "README.md", "LICENSE"
