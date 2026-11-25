@@ -1,6 +1,6 @@
 cask "pcode" do
-  version "0.1.2"
-  sha256 "241702e7309b4b798a5519753fc0d0f20fbd378287e408cfe46e3874fcde4853"
+  version "0.2.0"
+  sha256 "7151b08e95744180a0236353ad6c2f748c4d3f29670116fc9c6495abfa5f0b55"
 
   url "https://github.com/aweis89/ghostty-smooth/releases/download/pcode-app-v#{version}/Pcode-#{version}-arm64.zip"
   name "Pcode"
