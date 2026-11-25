@@ -16,7 +16,7 @@ cask "pcode" do
   auto_updates false
   depends_on arch: :arm64
   depends_on formula: "aweis89/tap/pcode"
-  depends_on macos: :ventura
+  depends_on macos: ">= :sequoia"
 
   app "Pcode.app"
 
